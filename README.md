@@ -73,7 +73,8 @@ minicom -D /dev/ttyUSB1 115200
 
 # Main features
 The project contains many useful tools and applications for MQTT and PQC/PQC-hybrid TLS connection, backed up by the hardware acceleration offered by the SE implemented on the PL part of the Zynq. A block diagram of the implemented system is shown below:
-![MS06_OPEN](https://github.com/user-attachments/assets/cbc5c37c-6c4e-4739-9453-504aa4ae2e40)
+
+![Block diagram of the MQTT-Client PQC-protected MPU system](MS06_OPEN.png)
 
 The *mqtt-client* (see https://github.com/QUBIP/mqtt-client-openssl) is an application that allows the system to act as a MQTT publisher/subscriber towards a remote MQTT broker with mutually authenticated TLS, where the reading value comes from a ModBus remote server. The *mqtt-client* application leverages on OpenSSL 3.2.2 to perform the mutually authenticated TLS connection. The PQC and PQC-T functionality are enabled by two OpenSSL3 compatible providers:
 * _OQSProvider_ 0.8.1dev (see https://github.com/open-quantum-safe/oqs-provider), backed by the _liboqs_ 0.12.1dev (see https://github.com/open-quantum-safe/liboqs)
