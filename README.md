@@ -108,8 +108,8 @@ Note that all the certificates in this implementation are *mldsa65_ed25519*, whi
 See [LICENSE](LICENSE).
 
 # Authors
-Davide Bellizia (davide.bellizia@telsy.it)
-Agostino Sette (agostino.sette@telsy.it)
+* Davide Bellizia (davide.bellizia@telsy.it)
+* Agostino Sette (agostino.sette@telsy.it)
 
 
 
