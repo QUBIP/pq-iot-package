@@ -1,9 +1,9 @@
 # dm_iot_mpu
 The repository contains a link to the Zenodo repository of the *Board Support Package* (BSP) for the AMD Xilinx ZCU104 of the Petalinux project to implement the MQTT client node of the Digital Manufacturing Internet-of-Things Pilot demonstrator (a.k.a. Pilot 2) MPU version for the QUBIP project (https://qubip.eu/). Refer to the following lines for the upstream versioning of the project:
 
-*Current Version:* v1.0
-*Name of the BSP:* qubip_dm_iot_mpu_1v0.bsp
-*SHA256 of the BSP:* d75fdbae8b602557ed903cad41f39c69957834eef248ad5462586d037687b64c
+* *Current Version:* v1.0
+* *Name of the BSP:* qubip_dm_iot_mpu_1v0.bsp
+* *SHA256 of the BSP:* d75fdbae8b602557ed903cad41f39c69957834eef248ad5462586d037687b64c
 
 # What is inside the package?
 The BSP package contains all the necessary files and scripts to recreate the Petalinux and Vivado projects for the PQC-protected MQTT client device on an AMD Xilinx ZCU104 development board (https://www.amd.com/en/products/adaptive-socs-and-fpgas/evaluation-boards/zcu104.html). The whole project has been created using the following tools and operating system:
