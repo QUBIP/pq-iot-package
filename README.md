@@ -4,6 +4,8 @@ The repository contains a link to the Zenodo repository of the *Board Support Pa
 * *Current Version:* v1.0
 * *Name of the BSP:* qubip_dm_iot_mpu_1v0.bsp
 * *SHA256 of the BSP:* d75fdbae8b602557ed903cad41f39c69957834eef248ad5462586d037687b64c
+* *DOI*: 10.5281/zenodo.15304129
+* *Link*: https://zenodo.org/records/15304129
 
 # What is inside the package?
 The BSP package contains all the necessary files and scripts to recreate the Petalinux and Vivado projects for the PQC-protected MQTT client device on an AMD Xilinx ZCU104 development board (https://www.amd.com/en/products/adaptive-socs-and-fpgas/evaluation-boards/zcu104.html). The whole project has been created using the following tools and operating system:
