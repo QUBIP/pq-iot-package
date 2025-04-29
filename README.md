@@ -104,11 +104,8 @@ When launched, the *mqtt-client* spawns three threads:
 
 Note that all the certificates in this implementation are *mldsa65_ed25519*, while the *Key Encapsulation Mechanism* (KEM) is forced to be *X25519MLKEM768*.
 
-# Disclaimer
-The provided
-
 # License
-See License.
+See [LICENSE](LICENSE).
 
 # Authors
 Davide Bellizia (davide.bellizia@telsy.it)
