@@ -78,7 +78,7 @@ The project contains many useful tools and applications for MQTT and PQC/PQC-hyb
 
 The *mqtt-client* (see https://github.com/QUBIP/mqtt-client-openssl) is an application that allows the system to act as a MQTT publisher/subscriber towards a remote MQTT broker with mutually authenticated TLS, where the reading value comes from a ModBus remote server. The *mqtt-client* application leverages on OpenSSL 3.2.2 to perform the mutually authenticated TLS connection. The PQC and PQC-T functionality are enabled by two OpenSSL3 compatible providers:
 * _OQSProvider_ 0.8.1dev (see https://github.com/open-quantum-safe/oqs-provider), backed by the _liboqs_ 0.12.1dev (see https://github.com/open-quantum-safe/liboqs)
-* *libaurora*, which is a porting of the QUBIP's PQC Provider for OpenSSL (see https://github.com/QUBIP/aurora) that leverages the hardware Secure Element (SE) connected to the PS through the AXI interface
+* *libaurora*, which is a porting of the QUBIP's PQC Provider for OpenSSL (see https://github.com/QUBIP/aurora) that leverages the hardware Secure Element (SE) (see https://gitlab.com/hwsec/se-qubip) connected to the PS through the AXI interface
 
 The hardware Secure Element functionalities are available for the operative system by means of a dedicated kernel module namely *telsy_mod*, also available in the BSP.
 
